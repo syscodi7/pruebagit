@@ -1,0 +1,26 @@
+pasos de git:
+---------------------------------
+INGRESAR A LA CARPETA
+--> cd E:\git
+---------------------------------
+INICIALIZAR GIT
+--> git init
+---------------------------------
+CONFIGURAR LA CUENTA  --GITHUB
+--> git config user.name "syscodi7"
+---------------------------------
+INGRESAR EMAIL
+--> git config user.email "syscodi7@gmail.com"
+---------------------------------
+ingresar al link del repositorio GITHUB
+-->git remote add origin "https://github.com/syscodi7/pruebagit.git"
+------------------------------------
+creamos un archivo en la carpeta donde esta el git 
+VER LO QEU CONTIENE LA CARPETA:
+-->git status
+subir un previo nada mas el nombre del archivo
+-->git add htpp.txt
+subir definitivamente el archivo
+-->git commit -m "ESTOY SEGURO DE SUBIR ESTE ARCHIVO"
+SUBIRLO A GITHUB
+-->git push -u origin master
